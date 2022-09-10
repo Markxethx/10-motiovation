@@ -68,11 +68,9 @@ body .main-container .main-content {
   background-color: #161a1d;
   margin: 5px 20px;
   padding: 10px;
-  overflow: auto;
   width: 60%;
   /* Articles */
   /* Representation */
-  /* Article Two */
 }
 body .main-container .main-content .content1 {
   line-height: 2;
@@ -173,32 +171,40 @@ body .main-container .main-content .illustration .img2 {
   max-width: 85%;
   height: auto;
 }
-body .main-container .main-content .content2 {
-  background: #FCFFEB;
-  max-width: 60%;
-  border-radius: 0 0 0 30px;
-  margin: 20px 0;
-  float: right;
-  text-align: start;
+body .main-container .main-content .quotes {
+  max-width: 100%;
+  padding: 20px;
+  text-align: center;
+  background-color: #FCFFEB;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+body .main-container .main-content .quotes .blockquote {
+  margin: 0 5px;
+}
+body .main-container .main-content .quotes .blockquote p {
+  margin: 0 0 10px 0;
+  padding: 5px 0;
+  width: 100%;
+  background-color: #e7e0ce;
+  border-radius: 50px;
+}
+body .main-container .main-content .quotes .blockquote q {
+  color: #161a1d;
+  margin-bottom: 10px;
+}
+body .main-container .main-content .quotes .blockquote quote, body .main-container .main-content .quotes .blockquote footer {
+  width: 100%;
+  background-color: #FCFFEB;
+}
+body .main-container .main-content .tesla {
+  text-align: center;
+  width: 100%;
+  color: #bcb8b1;
   padding: 10px 0;
 }
-body .main-container .main-content .content2 .quote3 {
-  color: #000;
-  line-height: 2;
-  padding: 0 10px;
-}
-body .main-container .main-content .content2 .quote3 p .larger {
-  color: #ffba08;
-  font-size: 20px;
-}
-body .main-container .main-content .content2 .quote3 p .little {
-  color: #ffba08;
-  font-size: 20px;
-}
-body .main-container .main-content .content2 .quote3 p .largest {
-  color: #ffba08;
-  font-size: 30px;
-  position: relative;
+body .main-container .main-content .tesla h2 {
+  color: #FCFFEB;
 }
 body .main-container .right {
   float: right;
