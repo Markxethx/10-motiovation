@@ -80,7 +80,7 @@ body{
         background-color: #161a1d;
         margin: 5px 20px;
         padding: 10px;
-        overflow: auto;
+
         width: 60%;
         
         /* Articles */
@@ -199,41 +199,47 @@ body{
             }
         }
 
-        /* Article Two */
-        .content2{
-            background: $color7;
-            max-width: 60%;
-            border-radius: 0 0 0 30px;
-            margin: 20px 0;
-            float: right;
-            text-align:start;
+
+        .quotes{
+            max-width:100%;
+            padding: 20px;
+            text-align: center;
+            background-color: #FCFFEB;
+
+            margin-bottom: 10px;
+            border-radius: 5px ;
+            .blockquote{
+                margin: 0 5px;
+                p{
+                    margin: 0 0 10px 0;
+                    padding: 5px 0;
+                    width: 100%;
+                    background-color: #e7e0ce;
+                    border-radius: 50px;
+                }
+                q {
+                    color: #161a1d;
+                    margin-bottom: 10px;
+                }
+                quote, footer{
+                    width: 100%;
+                    background-color: #FCFFEB;
+                }   
+            }
+        }
+
+        .tesla {
+            text-align: center;
+            width: 100%;
+            color: #bcb8b1;
             padding: 10px 0;
-            .quote3{
-                color:#000;
-                line-height: 2;
-                padding: 0 10px;
-                p{
-                    .larger{
-                        color: $color8;
-                        font-size: 20px;
-                    }
-                }
-                p{
-                    .little {
-                        color: $color8;
-                        font-size: 20px;
-                    }
-                }
-                p {
-                    .largest{
-                        color: $color8;
-                        font-size: 30px;
-                        position: relative;
-                    }
-                }
+            h2{
+                color: #FCFFEB;
             }
         }
     }
+
+
 
     /* Float Right */
     .right{
